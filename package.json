@@ -1,6 +1,6 @@
 {
   "name": "food_project",
-  "homepage": "https://github.com/AndriiSaveliev/Food_Project",
+  "homepage": "https://github.com/andriisaveliev/Food_Project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.2.0",
-    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,6 +41,12 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.25.9",
-    "gh-pages": "^6.3.0"
+    "@eslint/js": "^9.22.0",
+    "@rushstack/eslint-patch": "^1.11.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.0.0",
+    "react-scripts": "^5.0.1"
   }
 }
