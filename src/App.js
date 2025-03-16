@@ -12,7 +12,7 @@ import {Recipe} from "./pages/Recipe";
 
 
 function App() {
-    const basename = process.env.NODE_ENV === "production" ? "/AndriiSaveliev/Food_Project" : "/";
+    const basename = process.env.NODE_ENV === "production" ? "/Food_Project" : "/";
     return (
         <Router basename={basename}>
             <Header />
